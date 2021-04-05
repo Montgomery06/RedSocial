@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="stylesheet" href="css/imageStyle.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
 
@@ -25,8 +26,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Black Crown</a>
-      <i class="fas fa-crown"></i>
+      <a class="navbar-brand" href="index.php">Black Crown</a>
+      <i class="fas fa-crown" href="index.php"> </i>
        <!--img src="images/crown.png"> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -49,7 +50,7 @@
           <h5 class="card-header">Menú</h5>
           <div class="card-body">
             <ul class="list-unstyled mb-0">
-              <li><i class="fas fa-home"> Inicio</i></li>
+              <li href="index.php"><i class="fas fa-home"> Inicio</i></li>
               <li><i class="fas fa-hashtag"> Explorar</i></li>
               <li><i class="fas fa-bell"> Notificaciones</i></li>
               <li><i class="fas fa-envelope"> Mensajes</i></li>
@@ -68,60 +69,62 @@
       <!-- Blog Entries Column -->
       <div class="col-md-6">
 
-        <h1 class="my-4">Page Heading
-          <small>Secondary Text</small>
+        <h1 class="my-4">
+          Publicaciones recientes
         </h1>
 
         <!-- Blog Post -->
         <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+          <img class="card-img-top" src="images/post1.jpeg" alt="Card image cap">
           <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            <img src="images/avatar1.jpeg" class="avatar"> 
+            <h2 class="card-title">Mi lindo bebe esta nadando</h2>
+            <p class="card-text">
+              Hoy fui a la piscina publica con morgan y sin darme cuenta mi bebe nadaba como un angel sobre el agua <a href="#">#pug </a><a href="#">#amante de los perros</a>
+            </p>
+            <a href="#" class="btn btn-primary">Leer más &rarr;</a>
           </div>
           <div class="card-footer text-muted">
-            Posted on January 1, 2020 by
-            <a href="#">Start Bootstrap</a>
+            Publicado el 15 de Marzo, 2020
           </div>
         </div>
 
         <!-- Blog Post -->
         <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+          <img class="card-img-top" src="images/post2.gif" alt="Card image cap">
           <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            <img src="images/avatar2.jpg" class="avatar" > 
+            <h2 class="card-title">Probando tableta de dibujo</h2>
+            <p class="card-text">Hoy me llego una tableta de dibujo nueva asi que hice un garabato en lo que pedia algo de comer <a href="">#art </a> <a href="">#juguete nuevo </a> <a href=""> #art is magic</a> </p>
+            <a href="#" class="btn btn-primary">Leer más &rarr;</a>
           </div>
           <div class="card-footer text-muted">
-            Posted on January 1, 2020 by
-            <a href="#">Start Bootstrap</a>
+           Publicado el 24 de Marzo, 2020
           </div>
         </div>
 
         <!-- Blog Post -->
 
         <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+          <img class="card-img-top" src="images/post3.webp" alt="Card image cap">
           <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            <img src="images/avatar3.jpg" class="avatar" >
+            <h2 class="card-title">Lindas vacaciones</h2>
+            <p class="card-text"> Mientras disfrutaba de mis vacaciones en los cabos decidi tomar una foto del recuerdo <a href="">#los cabos </a> <a href=""> #vacaciones </a></p>
+            <a href="#" class="btn btn-primary">Leer más &rarr;</a>
           </div>
           <div class="card-footer text-muted">
-            Posted on January 1, 2020 by
-            <a href="#">Start Bootstrap</a>
+            Publicado el 1 de abril, 2020
           </div>
         </div>
 
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
-            <a class="page-link" href="#">&larr; Older</a>
+            <a class="page-link" href="#">&larr; Antiguo</a>
           </li>
           <li class="page-item disabled">
-            <a class="page-link" href="#">Newer &rarr;</a>
+            <a class="page-link" href="#">Nuevo &rarr;</a>
           </li>
         </ul>
 
