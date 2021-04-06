@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="stylesheet" href="css/imageStyle.css">
+  <link rel="stylesheet" href="css/textStyle.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
 
@@ -50,7 +51,11 @@
           <h5 class="card-header">Menú</h5>
           <div class="card-body">
             <ul class="list-unstyled mb-0">
-              <li href="index.php"><i class="fas fa-home"> Inicio</i></li>
+              <li>
+                <a href="index.php" class="menu">
+                <i class="fas fa-home"> Inicio </i> 
+                </a>
+              </li>
               <li><i class="fas fa-hashtag"> Explorar</i></li>
               <li><i class="fas fa-bell"> Notificaciones</i></li>
               <li><i class="fas fa-envelope"> Mensajes</i></li>
@@ -77,12 +82,16 @@
         <div class="card mb-4">
           <img class="card-img-top" src="images/post1.jpeg" alt="Card image cap">
           <div class="card-body">
-            <img src="images/avatar1.jpeg" class="avatar"> 
+            <div>
+              <img src="images/avatar1.jpeg" class="avatar"> 
+              <a href="#">@abbybb</a>
+            </div>
+            
             <h2 class="card-title">Mi lindo bebe esta nadando</h2>
             <p class="card-text">
               Hoy fui a la piscina publica con morgan y sin darme cuenta mi bebe nadaba como un angel sobre el agua <a href="#">#pug </a><a href="#">#amante de los perros</a>
             </p>
-            <a href="#" class="btn btn-primary">Leer más &rarr;</a>
+            <a href="post/post.php" class="btn btn-dark">Leer más &rarr;</a>
           </div>
           <div class="card-footer text-muted">
             Publicado el 15 de Marzo, 2020
@@ -93,10 +102,14 @@
         <div class="card mb-4">
           <img class="card-img-top" src="images/post2.gif" alt="Card image cap">
           <div class="card-body">
-            <img src="images/avatar2.jpg" class="avatar" > 
+            <div>
+              <img src="images/avatar2.jpg" class="avatar" >
+              <a href="#">@petterArts</a> 
+            </div>
+            
             <h2 class="card-title">Probando tableta de dibujo</h2>
             <p class="card-text">Hoy me llego una tableta de dibujo nueva asi que hice un garabato en lo que pedia algo de comer <a href="">#art </a> <a href="">#juguete nuevo </a> <a href=""> #art is magic</a> </p>
-            <a href="#" class="btn btn-primary">Leer más &rarr;</a>
+            <a href="#" class="btn btn-dark">Leer más &rarr;</a>
           </div>
           <div class="card-footer text-muted">
            Publicado el 24 de Marzo, 2020
@@ -108,10 +121,14 @@
         <div class="card mb-4">
           <img class="card-img-top" src="images/post3.webp" alt="Card image cap">
           <div class="card-body">
-            <img src="images/avatar3.jpg" class="avatar" >
+            <div>
+              <img src="images/avatar3.jpg" class="avatar" >
+              <a href="#">@james_06</a>
+            </div>
+            
             <h2 class="card-title">Lindas vacaciones</h2>
             <p class="card-text"> Mientras disfrutaba de mis vacaciones en los cabos decidi tomar una foto del recuerdo <a href="">#los cabos </a> <a href=""> #vacaciones </a></p>
-            <a href="#" class="btn btn-primary">Leer más &rarr;</a>
+            <a href="#" class="btn btn-dark">Leer más &rarr;</a>
           </div>
           <div class="card-footer text-muted">
             Publicado el 1 de abril, 2020
