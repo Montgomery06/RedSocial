@@ -109,7 +109,7 @@
             
             <h2 class="card-title">Probando tableta de dibujo</h2>
             <p class="card-text">Hoy me llego una tableta de dibujo nueva asi que hice un garabato en lo que pedia algo de comer <a href="">#art </a> <a href="">#juguete nuevo </a> <a href=""> #art is magic</a> </p>
-            <a href="#" class="btn btn-dark">Leer más &rarr;</a>
+            <a href="post/post2.php" class="btn btn-dark">Leer más &rarr;</a>
           </div>
           <div class="card-footer text-muted">
            Publicado el 24 de Marzo, 2020
@@ -128,10 +128,10 @@
             
             <h2 class="card-title">Lindas vacaciones</h2>
             <p class="card-text"> Mientras disfrutaba de mis vacaciones en los cabos decidi tomar una foto del recuerdo <a href="">#los cabos </a> <a href=""> #vacaciones </a></p>
-            <a href="#" class="btn btn-dark">Leer más &rarr;</a>
+            <a href="post/post3.php" class="btn btn-dark">Leer más &rarr;</a>
           </div>
           <div class="card-footer text-muted">
-            Publicado el 1 de abril, 2020
+            Publicado el 1 de Abril, 2020
           </div>
         </div>
 

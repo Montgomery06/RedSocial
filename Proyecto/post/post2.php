@@ -75,32 +75,32 @@
       <!-- Post Content Column -->
       <div class="col-lg-6">
 
-        <!-- Title -->
-        <h1 class="mt-4">Mi lindo bebe esta nadando</h1>
+         <!-- Title -->
+        <h1 class="mt-4">Probando tableta de dibujo</h1>
 
         <!-- Author -->
         <p class="lead">
           Por
             <div>
-              <img src="../images/avatar1.jpeg" class="avatar"> 
-              <a href="#">@abbybb</a>
+              <img src="../images/avatar2.jpg" class="avatar"> 
+              <a href="#">@petterArts</a>
             </div>
         </p>
 
         <hr>
 
         <!-- Date/Time -->
-        <p>Publicado el 15 de Marzo, 2020</p>
+        <p>Publicado el 24 de Marzo, 2020</p>
 
         <hr>
 
         <!-- Preview Image -->
-        <img class="img-fluid rounded" src="../images/post1.jpeg" alt="">
+        <img class="img-fluid rounded" src="../images/post2.gif" alt="">
 
         <hr>
 
         <!-- Post Content -->
-        <p class="lead">Hoy fui a la piscina publica con morgan y sin darme cuenta mi bebe nadaba como un angel sobre el agua <a href="#">#pug </a><a href="#">#amante de los perros</a></p>
+        <p class="lead">Hoy me llego una tableta de dibujo nueva asi que hice un garabato en lo que pedia algo de comer <a href="">#art </a> <a href="">#juguete nuevo </a> <a href=""> #art is magic</a></p>
 
         <hr>
 
@@ -120,28 +120,14 @@
         <!-- Single Comment -->
         <div class="media mb-4">
           <div class="media-left">
-            <img class="avatar" src="../images/avatar4.jpeg" alt="">
+            <img class="avatar" src="../images/avatar6.jpeg" alt="">
           </div>
             
           <div class="media-body">
-            <h5 class="mt-0"><a href="#">@lucy23:)</a></h5>
+            <h5 class="mt-0"><a href="#">@themasterSteve</a></h5>
              <p>
-               Qué lindo se ve nadando
+               Haz mejorado mucho ultimamente, igual puede pasarte por mi oficina si deseas mas asesorias ;)
              </p> 
-          </div>
-        </div>
-
-        <!-- Single Comment -->
-
-        <div class="media mb-4">
-            <img class="avatar" src="../images/avatar5.jpeg" alt="">
-            
-          <div class="media-body" class="comentary">
-            <h5 class="mt-0"><a href="#">@marichoco</a></h5>
-            <p>
-              que feo esta ese perro
-            </p>
-
           </div>
         </div>
 
